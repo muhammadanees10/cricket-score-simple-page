@@ -1,0 +1,125 @@
+
+.head {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    position: fixed;
+    margin-right: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.btn {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    position: fixed;
+    margin-right: 10px;
+    margin-left: 304px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    width: 134px;
+    font-size: 16px;
+    border: 2px solid rgb(255, 246, 246);
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+header {
+    margin-top: -30px;
+    margin-left: -8px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    position: fixed;
+    color: white;
+    width: 100%;
+    height: 110px;
+    border: 0px solid;
+    background-color: rgb(65, 49, 151);
+
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li {
+    align-items: center;
+    display: inline-block;
+    display: block;
+    justify-content: center;
+    /* position: fixed; */
+    list-style: none;
+    margin-top: 14px;
+    margin-left: 30px;
+    padding-left: 48px;
+    padding-top: 50px;
+
+
+
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    
+    height: 12vh;
+    padding: 0 21px;
+
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    display: block;
+    
+}
+.year{
+    padding-top: 100px;
+}
+hr{
+    /* color: rgba(254, 255, 255, 0.952); */
+}
+
+.table{
+    font-family: ' Sans Pro', sans-serif;
+    color: black;
+    width: 50%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: rgb(214, 219, 219);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    /* border-collapse: collapse; */
+    
+    
+    
+}
+th{
+    text-align: right;
+    margin: 20px;
+    padding-top: 10px ;
+    
+    
+}
+table, th, td{
+    /* border: 1px solid; */
+    border-top: 1px solid;
+    border-color: rgba(186, 192, 192, 0.952);
+    
+}
